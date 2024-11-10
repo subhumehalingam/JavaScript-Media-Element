@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media Control App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Custom Media Player</h1>
+    <video id="mediaPlayer" controls width="600">
+        <source src="media/my-video.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+    
+    <div id="controls">
+        <button id="playPauseBtn">Play/Pause</button>
+        <button id="rewindBtn">Rewind 10s</button>
+        <button id="fastForwardBtn">Fast Forward 10s</button>
+        <select id="speedControl">
+            <option value="0.5">0.5x Speed</option>
+            <option value="1" selected>Normal Speed</option>
+            <option value="1.5">1.5x Speed</option>
+            <option value="2">2x Speed</option>
+        </select>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

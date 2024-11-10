@@ -1,0 +1,14 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+#controls {
+    margin-top: 20px;
+}
+
+button, select {
+    padding: 10px;
+    font-size: 16px;
+    margin: 5px;
+}
